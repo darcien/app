@@ -1,0 +1,4 @@
+body {
+  margin-top: constant(safe-area-inset-top); /* for iOS 11.2 */
+  margin-top: env(safe-area-inset-top); /* for iOS 11.1 */
+}
